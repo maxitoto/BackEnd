@@ -1,45 +1,39 @@
 package RepasoJava.TiposDeDatos.Enum;
-import java.util.Date;
 
 public class Trabajar {
 
     public static void main(String[] args) {
-        // Obtiene el día actual
-        Date diaActual = new Date();
-        String diaAbreviado = diaActual.toString().split(" ")[0];
 
-        // Usar un switch para determinar el día
-        Dias dia = null;
-        switch (diaAbreviado) {
-            case "Mon":
-                dia = Dias.LUNES;
-                break;
-            case "Tue":
-                dia = Dias.MARTES;
-                break;
-            case "Wed":
-                dia = Dias.MIERCOLES;
-                break;
-            case "Thu":
-                dia = Dias.JUEVES;
-                break;
-            case "Fri":
-                dia = Dias.VIERNES;
-                break;
-            case "Sat":
-                dia = Dias.SABADO;
-                break;
-            case "Sun":
-                dia = Dias.DOMINGO;
-                break;
-            default:
-                System.out.println("Día no reconocido.");
-                return;
+        Dias dias = Dias.DOMINGO;
+
+        // Imprimir el día según el nombre del enum
+        switch (dias) {
+            case LUNES -> System.out.println(dias.name());//devuelve el nombre de la constante LUNES
+            case MARTES -> System.out.println(dias.name());
+            case MIERCOLES -> System.out.println(dias.name());
+            case JUEVES -> System.out.println(dias.name());
+            case VIERNES -> System.out.println(dias.name());
+            case SABADO -> System.out.println(dias.name());
+            case DOMINGO -> System.out.println(dias.name());
         }
 
-        // Imprimir el día
-        System.out.println("El día actual es: " + dia);
-        System.out.println("Abreviatura: " + dia.getAbreviatura());
+        // Obtener y mostrar la abreviatura del día LUNES -> lun
+        System.out.println("Abreviatura: " + dias.getAbreviatura());
+
+        // Obtener todos los valores del enum [LUNES y lun]
+        for (Dias d : Dias.values()) {
+            System.out.println(d.name() + " - Abreviatura: " + d.getAbreviatura());
+        }
+
+        // Obtener la posición ordinal del lunes
+        System.out.println("Posición ordinal de LUNES: " + Dias.LUNES.ordinal());
+
+        //método del enum
+        System.out.println("Es fin de semana? "+(dias.esFinDeSemana()?"Si":"No"));
+
+        //uso método abstracto de enum
+        System.out.println(dias.accion());
     }
 }
+
 

@@ -1,6 +1,7 @@
 package RepasoJava.TiposDeDatos.TipoVar;
 
 public class Var {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         var a = 1;
         var b = "Soy un String";

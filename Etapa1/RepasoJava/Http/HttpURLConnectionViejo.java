@@ -17,6 +17,7 @@ public class HttpURLConnectionViejo { // Define una clase llamada HttpURLConnect
         sendHttpGETRequest(); // Llama al método para enviar la solicitud HTTP GET
     }
 
+    @SuppressWarnings("deprecation")
     private static void sendHttpGETRequest() throws IOException { // Método que envía una solicitud HTTP GET y puede lanzar una IOException
         URL obj = new URL(GET_URL); // Crea un objeto URL a partir de la URL definida en GET_URL
         HttpURLConnection httpURLConnection = (HttpURLConnection) obj.openConnection(); // Abre una conexión HTTP a la URL especificada

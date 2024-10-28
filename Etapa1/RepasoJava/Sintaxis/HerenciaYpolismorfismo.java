@@ -16,7 +16,7 @@ public class HerenciaYpolismorfismo extends Sintaxis implements Sintaxis.OtraCla
         return "Soy el texto original";
     }
 
-    @Override 
+    @Override
     public void polimorfismo(){
         System.out.println("Nuevo cuerpo, soy de HerenciaYpolimorfismo");
     }

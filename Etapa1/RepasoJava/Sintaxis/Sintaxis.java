@@ -1,3 +1,5 @@
+
+
 public abstract class Sintaxis {//la primer letra en mayuscula y el mismo nombre del archivo .java
      //declaro como clase abstracta para hacer un metodo abstracto que puede ser sobreescrito.
 
