@@ -42,8 +42,10 @@ class Mapa<K extends Number, T extends Object>{
 
     private static Long cont_element = 0l;
 
+    @SuppressWarnings("rawtypes")
     private static java.util.List<Diccionario> map = new java.util.ArrayList<Diccionario>();
 
+    @SuppressWarnings({ "unchecked", "static-access" })
     public void addMapping(T object){
         Diccionario<Number, T> objectMap = new Diccionario<Number,T>(cont_element, object);
 
@@ -64,7 +66,9 @@ class Mapa<K extends Number, T extends Object>{
         });
     }
 
+    @SuppressWarnings("static-access")
     public void addMapping(K key, T object){
+        @SuppressWarnings("rawtypes")
         Diccionario dir = map.stream().filter(diccionario -> {
             // Compara usando doubleValue() o intValue() según sea necesario
             if (key instanceof Double) {
@@ -92,6 +96,7 @@ class Mapa<K extends Number, T extends Object>{
         }else{ System.err.println("la key esta ocupada");}
     }
     
+    @SuppressWarnings("rawtypes")
     public Diccionario getDiccByKey(K key) {
         return map.stream()
                   .filter(diccionario -> {

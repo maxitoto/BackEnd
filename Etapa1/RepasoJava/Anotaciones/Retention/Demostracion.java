@@ -1,7 +1,5 @@
 package RepasoJava.Anotaciones.Retention;
 
-import java.lang.annotation.Retention;
-
 public class Demostracion {
     public static void main(String[] args) {
         RetentionCLASS rc = new RetentionCLASS();
