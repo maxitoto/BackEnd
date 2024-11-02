@@ -1,4 +1,4 @@
-package RepasoJava.Genericos;
+package RepasoJava.Genericos.GenericoRestrictivoPorExtension;
 
 
 //por nomenclatura se coloca T de Type

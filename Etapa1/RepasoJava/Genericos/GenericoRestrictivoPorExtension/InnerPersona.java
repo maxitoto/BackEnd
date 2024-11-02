@@ -1,4 +1,4 @@
-package RepasoJava.Genericos;
+package RepasoJava.Genericos.GenericoRestrictivoPorExtension;
 
 /**
  * InnerPersona

@@ -29,7 +29,7 @@ public class SwitchSintaxisDiferente {
                     case null -> System.out.println("R es null y es un switch dentro de un switch");
                     default -> System.out.println("R No es null y es un switch dentro de un switch");
                 }
-            } 
+            }
             default -> System.out.println("Salio: "+num);
         }
 
@@ -50,6 +50,17 @@ public class SwitchSintaxisDiferente {
         }
 
 
+        //switch expression
+        String a = switchExpresion(1);
         
     }
+
+    public static String switchExpresion(int elem){
+        int resto = elem  % 2;
+        return switch(resto){
+            case 0 -> "Es par";
+            default -> "Es impar";
+        }; //recordar colocar un ";" porque no es un switch normal, en realidad es un return;
+    }
+
 }
