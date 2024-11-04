@@ -1,4 +1,4 @@
-package Etapa1.RepasoJava.SealedClass;
+package RepasoJava.SealedClass;
 
 public sealed interface OtraFormaDeEscribirlo {
     public String nombre();

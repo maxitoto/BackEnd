@@ -1,4 +1,4 @@
-package Etapa1.RepasoJava.SealedClass.InterfaceYRecordYClase;
+package RepasoJava.SealedClass.InterfaceYRecordYClase;
 
 
 public final class NodoEstatico implements Nodo {

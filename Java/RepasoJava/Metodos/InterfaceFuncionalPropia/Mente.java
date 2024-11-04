@@ -1,4 +1,4 @@
-package Java.RepasoJava.Metodos.InterfaceFuncionalPropia;
+package RepasoJava.Metodos.InterfaceFuncionalPropia;
 
 public class Mente {
    

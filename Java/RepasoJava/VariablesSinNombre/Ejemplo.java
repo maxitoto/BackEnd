@@ -1,4 +1,4 @@
-package Etapa1.RepasoJava.VariablesSinNombre;
+package RepasoJava.VariablesSinNombre;
 
 
 public class Ejemplo {

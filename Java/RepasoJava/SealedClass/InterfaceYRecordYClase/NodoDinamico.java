@@ -1,4 +1,4 @@
-package Etapa1.RepasoJava.SealedClass.InterfaceYRecordYClase;
+package RepasoJava.SealedClass.InterfaceYRecordYClase;
 
 //recordemos que record es final por defincion, no puede extender de otra clase y tampoco de otro record
 

@@ -1,4 +1,4 @@
-package Etapa1.RepasoJava.SealedClass.ExtensionYClases;
+package RepasoJava.SealedClass.ExtensionYClases;
 
 //el objetivo de la palabara reservada sealed es restringir quienes pueden heredar de la clase, tanto extender como implementar.
 /*las clases hijas que esten permitidas de extender o implementar, tendran que ser final, para darle continuidad

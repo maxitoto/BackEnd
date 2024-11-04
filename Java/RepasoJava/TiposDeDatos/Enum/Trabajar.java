@@ -32,7 +32,7 @@ public class Trabajar {
         System.out.println("Es fin de semana? "+(dias.esFinDeSemana()?"Si":"No"));
 
         //uso método abstracto de enum
-        System.out.println(dias.accion())
+        System.out.println(dias.accion());
     }
 }
 

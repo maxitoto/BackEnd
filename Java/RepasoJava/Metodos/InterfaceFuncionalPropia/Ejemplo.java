@@ -1,4 +1,4 @@
-package Java.RepasoJava.Metodos.InterfaceFuncionalPropia;
+package RepasoJava.Metodos.InterfaceFuncionalPropia;
 
 @FunctionalInterface
 public interface Ejemplo {

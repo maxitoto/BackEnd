@@ -1,4 +1,4 @@
-package RepasoJava.Genericos.GenericoRestrictivoPorExtensionEinterface;
+package RepasoJava.Genericos.GenericoRestrictivoPorExtensionMalHechoConInterface;
 
 public class GenericoMalHecho <T extends Persona, AccionGenerica> {
         public void ejecutarAccion(T obj) {

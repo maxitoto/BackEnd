@@ -1,6 +1,4 @@
-package RepasoJava.Genericos.GenericoRestrictivoPorExtensionEinterface;
-
-import RepasoJava.Genericos.GenericoRestrictivoPorExtensionEinterface.GenericoMalHecho;
+package RepasoJava.Genericos.GenericoRestrictivoPorExtensionMalHechoConInterface;
 
 public class Mente{
     public static void main(String[] args) {

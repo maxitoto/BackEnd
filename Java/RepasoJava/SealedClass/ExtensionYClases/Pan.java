@@ -1,4 +1,4 @@
-package Etapa1.RepasoJava.SealedClass.ExtensionYClases;
+package RepasoJava.SealedClass.ExtensionYClases;
 
 public final class Pan implements Merienda {
 
