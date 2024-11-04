@@ -1,4 +1,5 @@
 {
     "commentTranslate.hover.enabled": true,
-    "commentTranslate.multiLineMerge": true
+    "commentTranslate.multiLineMerge": true,
+    "commentTranslate.browse.mode": "inplace"
 }
